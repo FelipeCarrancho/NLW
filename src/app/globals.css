@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 @theme {
-  --color-*: initial;
+  --color-*: initial; /*Restringe as opções de cores no tailwindcss às selecionadas abaixo, impedindo que o usuário escolha outras.*/
 
   --color-blue: #6f9de2;
   --color-purple: #9871f3;

@@ -54,7 +54,8 @@ export type GetSubscriberRankingPosition200 = {
  * @summary Subscribe to event
  */
 export const getSubscribeToEventUrl = () => {
-  return 'http://localhost:3333/subscriptions'
+  // biome-ignore lint/style/noUnusedTemplateLiteral: <explanation>
+  return `http://localhost:3333/subscriptions`
 }
 
 export const subscribeToEvent = async (
@@ -100,7 +101,8 @@ export const accessInviteLink = async (
  * @summary Get ranking
  */
 export const getGetRankingUrl = () => {
-  return 'http://localhost:3333/ranking'
+  // biome-ignore lint/style/noUnusedTemplateLiteral: <explanation>
+  return `http://localhost:3333/ranking`
 }
 
 export const getRanking = async (
